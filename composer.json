@@ -3,17 +3,8 @@
     "description": "NextProject",
     "license": "MIT",
     "type": "library",
-    "authors": [
-        {
-            "name": "Budi Hermawan",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{"name": "Budi Hermawan", "role": "Developer"}],
     "homepage": "https://github.com/realodix/next-project",
-    "support": {
-        "source": "https://github.com/realodix/next-project",
-        "issues": "https://github.com/realodix/next-project/issues"
-    },
     "require": {
         "php": "^8.0",
         "illuminate/collections": "^9.19",
