@@ -1,14 +1,10 @@
 <?php
 
-use Realodix\CsConfig\Config;
-use Realodix\CsConfig\Finder;
-use Realodix\CsConfig\Rules\Realodix;
+use Realodix\Relax\Config;
+use Realodix\Relax\Finder;
 
-$finder = Finder::laravel(__DIR__);
-
-$addOrOverrideRules = [
-    // Base
+$localRules = [
+    // ...
 ];
 
-return Config::create(new Realodix($addOrOverrideRules))
-    ->setFinder($finder);
+return Config::create('realodix', $localRules);
