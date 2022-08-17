@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit colors="true"
-         verbose="true">
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+         colors="true"
+         verbose="true"
+>
     <testsuites>
         <testsuite name="default">
             <directory>tests</directory>
