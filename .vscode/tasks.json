@@ -22,6 +22,18 @@
             "problemMatcher": []
         },
         {
+            "label": "[SA] PHPStan",
+            "type": "shell",
+            "command": "./vendor/bin/phpstan analyse",
+            "problemMatcher": []
+        },
+        {
+            "label": "[SA] PHPStan (baseline)",
+            "type": "shell",
+            "command": "./vendor/bin/phpstan analyse --generate-baseline",
+            "problemMatcher": []
+        },
+        {
             "label": "[SA] Psalm",
             "type": "shell",
             "command": "./vendor/bin/psalm",

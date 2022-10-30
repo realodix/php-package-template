@@ -3,6 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="https://getpsalm.org/schema/config"
     xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+    cacheDirectory=".tmp/Psalm"
     errorBaseline="psalm-baseline.xml"
     findUnusedCode="true"
     findUnusedVariablesAndParams="true"
@@ -14,7 +15,4 @@
             <directory name="vendor"/>
         </ignoreFiles>
     </projectFiles>
-    <plugins>
-        <pluginClass xmlns="https://getpsalm.org/schema/config" class="Psalm\PhpUnitPlugin\Plugin"/>
-    </plugins>
 </psalm>
