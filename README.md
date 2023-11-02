@@ -1,6 +1,6 @@
 # NextProject
 
-![PHPVersion](https://img.shields.io/badge/PHP-8-777BB4.svg?style=flat-square)
+![PHPVersion](https://img.shields.io/badge/PHP-8.1-777BB4.svg?style=flat-square)
 ![Build Status](../../actions/workflows/ci.yml/badge.svg)
 
 ## Installation

@@ -6,7 +6,7 @@
     "authors": [{"name": "Budi Hermawan", "role": "Developer"}],
     "homepage": "https://github.com/realodix/next-project",
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "illuminate/collections": "^9.37",
         "illuminate/support": "^9.37",
         "symfony/polyfill-php81": "^1.26"
@@ -15,7 +15,7 @@
         "fakerphp/faker": "^1.20",
         "mockery/mockery": "^1.5",
         "phpstan/phpstan": "^1.9",
-        "phpunit/phpunit": "^9.5",
+        "phpunit/phpunit": "^10.4",
         "realodix/relax": "dev-main",
         "vimeo/psalm": "^5.1"
     },
