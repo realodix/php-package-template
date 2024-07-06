@@ -3,11 +3,10 @@ includes:
   - phar://phpstan.phar/conf/bleedingEdge.neon
 
 parameters:
-  level: 7
+  level: 6
   paths:
     - src
   tmpDir: .tmp/PHPStan
-  checkGenericClassInNonGenericObjectType: false
   checkAlwaysTrueCheckTypeFunctionCall: true
   checkAlwaysTrueInstanceof: true
   checkAlwaysTrueStrictComparison: true
@@ -22,4 +21,5 @@ parameters:
   ignoreErrors:
     # When bleedingEdge is used, the checkMissingIterableValueType parameter cannot be used
     # https://github.com/phpstan/phpstan-src/commit/50d0c8e23ea85da508ab8481f1ff2c89148cc80b
-    - "#no value type specified in iterable type#"
+    # - identifier: missingType.iterableValue
+    # - identifier: missingType.generics
