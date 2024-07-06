@@ -7,4 +7,6 @@ $localRules = [
     // ...
 ];
 
-return Config::create(new Realodix, $localRules);
+return Config::create(new Realodix)
+    ->setRules($localRules)
+    ->setCacheFile(__DIR__.'/.tmp/.php-cs-fixer.cache');

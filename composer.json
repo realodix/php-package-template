@@ -17,7 +17,7 @@
         "mockery/mockery": "^1.6",
         "phpstan/phpstan": "^1.10",
         "phpunit/phpunit": "^10.4",
-        "realodix/relax": "^1.6",
+        "realodix/relax": "^1.14",
         "vimeo/psalm": "^5.15"
     },
     "minimum-stability": "dev",
