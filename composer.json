@@ -7,18 +7,18 @@
     "homepage": "https://github.com/realodix/next-project",
     "require": {
         "php": "^8.1",
-        "illuminate/collections": "^10.30",
-        "illuminate/support": "^10.30",
-        "symfony/polyfill-php82": "^1.28",
-        "symfony/polyfill-php83": "^1.28"
+        "illuminate/support": "^11.14",
+        "symfony/polyfill-php82": "^1.30",
+        "symfony/polyfill-php83": "^1.30",
+        "symfony/polyfill-php84": "^1.30"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
         "mockery/mockery": "^1.6",
         "phpstan/phpstan": "^1.11",
-        "phpunit/phpunit": "^10.4",
+        "phpunit/phpunit": "^10.5 || ^11.1",
         "realodix/relax": "^1.14",
-        "vimeo/psalm": "^5.15"
+        "vimeo/psalm": "^5.25"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
