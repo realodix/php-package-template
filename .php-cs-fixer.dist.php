@@ -1,12 +1,13 @@
 <?php
 
 use Realodix\Relax\Config;
-use Realodix\Relax\RuleSet\Sets\Realodix;
+use Realodix\Relax\Finder;
 
 $localRules = [
     // ...
 ];
 
-return Config::create(new Realodix)
+return Config::create('relax')
+    ->setFinder(Finder::base()->in(__DIR__))
     ->setRules($localRules)
     ->setCacheFile(__DIR__.'/.tmp/.php-cs-fixer.cache');
