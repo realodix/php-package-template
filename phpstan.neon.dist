@@ -7,9 +7,6 @@ parameters:
   paths:
     - src
   tmpDir: .tmp/PHPStan
-  checkAlwaysTrueCheckTypeFunctionCall: true
-  checkAlwaysTrueInstanceof: true
-  checkAlwaysTrueStrictComparison: true
   checkDynamicProperties: true # PHP < 8.2
   checkExplicitMixedMissingReturn: true
   checkFunctionNameCase: true
