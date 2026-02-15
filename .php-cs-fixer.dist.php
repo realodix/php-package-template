@@ -3,11 +3,11 @@
 use Realodix\Relax\Config;
 use Realodix\Relax\Finder;
 
-$localRules = [
-    // ...
+$rules = [
+    '@Realodix/Relax' => true,
 ];
 
-return Config::create('relax')
+return Config::this()
     ->setFinder(Finder::base()->in(__DIR__))
-    ->setRules($localRules)
+    ->setRules($rules)
     ->setCacheFile(__DIR__.'/.tmp/.php-cs-fixer.cache');
